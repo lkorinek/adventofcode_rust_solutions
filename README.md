@@ -10,6 +10,20 @@ Advent of Code is an annual coding event consisting of daily programming puzzles
 
 ---
 
+## Advent of Code Automation
+
+The `start_coding` folder automatically creates a Cargo package and downloads the input for the current day's Advent of Code puzzle (or a specified day) using your session cookies (from the Brave browser). The input is saved in `target/debug/input.txt` inside the corresponding `dayX` directory.
+
+### Usage
+
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `./start_coding`       | *Fetches the input for the current day.*           |
+| `./start_coding 12`    | *Fetches the input for the specified day (e.g., day 12).* |
+
+
+- The input will be saved in `target/debug/input.txt` within the appropriate `dayX` directory.
+
 ## Structure  
-Each day consists of two puzzles. The solutions for each day are organized into separate directories, named `dayX`, where `X` corresponds to the day number (e.g., `day1`, `day2`).  
+Each day consists of two puzzles. The solutions for each day are organized into separate directories, named `dayX`, where `X` corresponds to the day number (e.g., `day1`, `day2`).**  
 
