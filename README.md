@@ -52,13 +52,13 @@ The `start_coding` folder automatically creates a Cargo package and downloads th
 
 1. **Create a Cargo package and download the input for Day 1**:
     ```bash
-    start_new_day -d 1
+    start_coding -d 1
 2. **Download input for Day 2, using Firefox as the browser**:
     ```bash
-    start_new_day -d 2 -b firefox
+    start_coding -d 2 -b firefox
 3. **Download just the input for Day 3 without creating a package**:
     ```bash
-    start_new_day --no-package -d 3
+    start_coding --no-package -d 3
 
 ## Structure  
 Each day consists of two puzzles. The solutions for each day are organized into separate directories, named `dayX`, where `X` corresponds to the day number (e.g., `day1`, `day2`).**  
