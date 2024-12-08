@@ -94,7 +94,7 @@ fn main() {
 
     let dir = format!("{new_package}/");
     fs::create_dir_all(&dir).unwrap();
-    let file_path = Path::new(&dir).join(args.file_name);
+    let file_path = Path::new(&dir).join(format!("{}.txt", args.file_name));
     let mut file = File::create(file_path).unwrap();
 
     file.write_all(alg_input.as_bytes()).unwrap();
