@@ -5,14 +5,14 @@ This repository contains solutions written in Rust to the daily programming chal
 
 ---
 
-## About Advent of Code  
-Advent of Code is an annual coding event consisting of daily programming puzzles from December 1st to December 25th. It’s a fun way to practice problem-solving, learn new algorithms, and enhance coding skills.  
+## About  
+Advent of Code is an annual coding event consisting of daily programming puzzles from December 1st to December 25th. The puzzles get progressively harder each day.
 
 ---
 
-## Advent of Code Automation
+## Automation
 
-The `start_coding` folder automatically creates a Cargo package and downloads the input for the current day's Advent of Code puzzle (or a specified day) using your session cookies (from the Brave browser). The input is saved in `target/debug/input.txt` inside the corresponding `dayX` directory.
+The `start_coding` folder automatically creates a Cargo package and downloads the input for the current day's Advent of Code puzzle (or a specified day) using your session cookies (default from the Brave browser). The input is saved in `input.txt` inside the corresponding `dayX` directory.
 
 ### Usage
 
