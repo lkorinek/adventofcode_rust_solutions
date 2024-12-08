@@ -1,4 +1,5 @@
 .idea/
 day[0-9]*/target/
+day[0-9]*/input.txt
 start_coding/target/
 start_new_day
