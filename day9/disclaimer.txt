@@ -1,0 +1,4 @@
+For the second part I adapted the solution published on the Advent of Rust Reddit:
+https://github.com/maneatingape/advent-of-code-rust/blob/main/src/year2024/day09.rs
+https://github.com/maneatingape/advent-of-code-rust/blob/main/src/util/heap.rs
+This solution uses minheap to solve the problem which I found quite elegant.
